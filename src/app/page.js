@@ -1,5 +1,6 @@
 import React from 'react';
 import DiscussionForum from './Components/DiscussionForum';
+import MarketStories from './Components/MarketStories';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
 
         <div className='w-1/4'>
           <h1 className='text-xl text-blue-500 font-bold bg-gray-200 p-3'>Market Stories</h1>
+          <MarketStories></MarketStories>
         </div>
       </div>
 

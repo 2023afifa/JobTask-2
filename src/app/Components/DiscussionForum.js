@@ -3,9 +3,8 @@ import discussData from "../../../public/post.json";
 import { FaRegHeart, FaRegCommentAlt } from "react-icons/fa";
 import { IoEyeOutline, IoShareSocialOutline } from "react-icons/io5";
 
+
 const DiscussionForum = () => {
-
-
 
     return (
         <div>

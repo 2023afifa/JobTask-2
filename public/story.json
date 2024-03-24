@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/GsfvDhD/pexels-aleksandar-pasaric-2341830.jpg",
+        "title": "Story One",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/5jKWvgN/pexels-rok-romih-3848158.jpg",
+        "title": "Story Two",
+        "content": "Consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+]
