@@ -6,10 +6,10 @@ const MarketStories = () => {
         <div>
             {
                 marketData.map(story => (<div key={story.id}>
-                    <div className='mx-5 my-8'>
+                    <div className='mx-8 mt-2 mb-8'>
                         <img className='mb-3' src={story.image} />
                         <h3 className='mb-1 font-bold'>{story.title}</h3>
-                        <p className='text-sm'>{story.content}</p>
+                        <p className='text-xs'>{story.content}</p>
                     </div>
                 </div>
                 ))

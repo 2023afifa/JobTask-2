@@ -11,7 +11,7 @@ const DiscussionForum = () => {
             {
                 discussData.map(post => (<div key={post.id}>
 
-                    <div className='m-5 p-5 shadow-lg flex'>
+                    <div className='mx-5 p-5 shadow-lg flex'>
                         <div className='w-1/12'>
                             <img className='w-12 rounded-full' src={post.image} />
                         </div>
