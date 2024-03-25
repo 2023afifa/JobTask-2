@@ -41,7 +41,7 @@ const DiscussionForum = () => {
                             </div>
                         </div>
                         <div className='w-1/12'>
-                            <p className='text-blue-700 text-xs font-semibold ml-1'>2 mins ago</p>
+                            <p className='text-blue-700 text-xs font-semibold text-center'>2 mins ago</p>
                         </div>
                     </div>
                 </div>

@@ -18,16 +18,32 @@ const Home = () => {
         <p className='text-gray-200'>Hello User</p>
       </div>
 
-      <div className={`flex-1 transition-all ${isOpen ? 'ml-64' : 'ml-0'} duration-300 ease-in-out`}>
-        <div className='flex items-center'>
-          <div className='bg-blue-900 h-20'>
-            <button className="w-auto h-20" onClick={toggleSidebar}>
-              <BiSolidRightArrow className='text-gray-200' />
-            </button>
+      <div className='hidden lg:block'>
+        <div className={`flex-1 transition-all ${isOpen ? 'ml-64' : 'ml-0'} duration-300 ease-in-out`}>
+          <div className='flex items-center'>
+            <div className='bg-blue-900 h-20'>
+              <button className="w-auto h-20" onClick={toggleSidebar}>
+                <BiSolidRightArrow className='text-gray-200' />
+              </button>
+            </div>
+            <MainSection />
           </div>
-          <MainSection />
         </div>
       </div>
+
+      <div className='block lg:hidden'>
+        <div className={`transition-all ml-0 duration-300 ease-in-out`}>
+          <div className='flex items-center'>
+            <div className='bg-blue-900 h-20 transition-all ml-64 duration-300 ease-in-out'>
+              <button className="w-auto h-20" onClick={toggleSidebar}>
+                <BiSolidRightArrow className='text-gray-200' />
+              </button>
+            </div>
+            <MainSection />
+          </div>
+        </div>
+      </div>
+
     </div>
 
   );
