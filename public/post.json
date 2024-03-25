@@ -14,14 +14,14 @@
         "content": "Consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        "id": 1,
+        "id": 3,
         "name": "Lorem",
         "image": "https://i.ibb.co/tLtPvjM/pexels-jack-winbow-1559486.jpg",
         "title": "Post 1",
         "content": "Lorem ipsum dolor sit amet. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
-        "id": 2,
+        "id": 4,
         "name": "Ipsum",
         "image": "https://i.ibb.co/tLtPvjM/pexels-jack-winbow-1559486.jpg",
         "title": "Post 2",
